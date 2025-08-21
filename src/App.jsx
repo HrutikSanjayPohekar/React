@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+<<<<<<< HEAD
 // import {InputBox} from './components'
 // import useCurrencyInfo from './hooks/useCurrencyInfo'
 // import './App.css'
@@ -31,6 +32,22 @@
 //   return (
 //     <>
 //       <h1 className='bg-red-500 text-color-black'>Ram Krshna Hari</h1>
+=======
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+// import Header from './components/Header/Header'
+// import Footer from  './components/Footer/Footer'
+// import Home from './components/Home/Home'
+
+
+// function App() {
+//   const [count, setCount] = useState(0)
+
+//   return (
+//     <>
+
+>>>>>>> d21db164251283cbf9a12ded290353257fbebeb9
 //     </>
 //   )
 // }
@@ -38,6 +55,7 @@
 // export default App
 
 
+<<<<<<< HEAD
 import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from "./hooks/useCurrencyInfo.js"
@@ -118,3 +136,30 @@ function App() {
 }
 
 export default App
+=======
+// import { BrowserRouter, Routes, Route } from "react-router-dom"
+// import Layout from "./Layout"
+// import Home from "./components/Home"
+// import About from "./components/About"
+// import Contact from "./components/Contact"
+// import User from "./components/User"
+// import Github from "./components/Github"
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="about" element={<About />} />
+//           <Route path="contact" element={<Contact />} />
+//           <Route path="user/:userid" element={<User />} />
+//           <Route path="github" element={<Github />} />   {/* ✅ Github route */}
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   )
+// }
+
+// export default App
+>>>>>>> d21db164251283cbf9a12ded290353257fbebeb9
